@@ -8,6 +8,7 @@ FOR /L %i IN (0,1,3) DO (timeout 600 & git add . & git commit -m "10min autosave
 <pre>
 bash
 place in a script chmod +x it and run in the folder comtaining the project 
+this will also run in a vs terminal just tested
 
 
 for run in {1..10}; do
